@@ -4,16 +4,19 @@
 }
 
 .user-item {
-    box-shadow: 2px 2px 4px 0 #ccc;
+    box-shadow: 0 #ccc;
     box-sizing: border-box;
     display: inline-block;
-    margin: 0 0 1.5em;
+    margin: 0.5em;
     padding: 1em;
-    width: 100%;
+	width: 200px;
+	height: 250px;
+	border: 1px solid #ccc;
 }
 
 .user-item img {
-    width: 100%;
+	width: 100%;
+	margin-bottom: 0.3em;
 }
 
 .user-list {

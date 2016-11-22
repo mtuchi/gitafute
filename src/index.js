@@ -43,10 +43,14 @@ class App extends React.Component {
 
 	}
 
+	handleQuery(query) {
+		console.log("Searching for a Gitter using " + query);
+	}
+
 	render() {
 		return (
 			<div>
-				<SearchBar />
+				<SearchBar onQuery={(q) => this.handleQuery(q)} />
 				<UserList users={this.state.users} />
 			</div>
 		);

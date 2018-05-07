@@ -12,8 +12,7 @@ import Battle from './views/Battle';
 import Results from './views/Results';
 import Popular from './views/Popular';
 
-import './styles/App.css';
-import './styles/index.css';
+import './styles/index.scss';
 
 import registerServiceWorker from './registerServiceWorker';
 

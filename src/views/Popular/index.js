@@ -5,7 +5,7 @@ import RepoGrid from './components/RepoGrid';
 import Loading from '../../components/Loading';
 
 import api from '../../utils/api';
-import './Popular.css';
+import './popular.css';
 
 function SelectLanguage(props) {
   var languages = ['All', 'Javascript', 'Ruby', 'Java', 'Css', 'Python'];
